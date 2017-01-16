@@ -19,6 +19,6 @@ With these considerations in mind, we decided to focus on a few different factor
 
 Our group was also lucky to have someone who had real-life canvassing experience. They told us about a few other factors that we may not have otherwise considered. For example, it's useful to send a team of canvassers to a location a few times - that way, someone walking by can get several opportunities to stop for a canvasser. Then, after spending about a week at a location (for a full day), the team rotates to a new station. Having this expertise was not only very interesting, but also helped up think about how many subway stations we should recommend to the organisation. At first it seemed like it would be simple to recommend a handful of stations - maybe five or ten - but after speaking to our real-life canvasser, we realized that a larger list of about fifty stations would be more practical. 
 
-![alt text] (https://github.com/maludee/maludee.github.io/tree/master/images "Traffic")
+![alt text] (https://github.com/maludee/maludee.github.io/blob/master/images/MTA%20Station%20Traffic%20-%204.16%20to%206.16.png "Traffic")
 
 The above histogram
