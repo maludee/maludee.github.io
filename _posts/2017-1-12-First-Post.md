@@ -29,7 +29,7 @@ After cleaning the data and removing outliers and duplicate entries, we organise
 
 We didn't want to send canvassers to stations with extremely high traffic, our thought being that after a certain point, higher traffic would just make it too overwhelming and crowded. We decided to use stations in the 70th to 90th percentiles of traffic volume. That left us with a list of about 100 stations.
 
-The final step was to further narrow down that list by merging it with income data. We used data from the New Yorker's "Inequality and the New York Subway" [found here.] (http://projects.newyorker.com/story/subway/)
+The final step was to further narrow down that list by merging it with income data. We used data from the New Yorker's "Inequality and the New York Subway" [found here.](http://projects.newyorker.com/story/subway/)
 
 We sorted our list of 100 stations by income, and dropped the second half of the list to leave us with our final 50 subway stations that we would recommend to the organisation.
 
