@@ -17,8 +17,20 @@ The organisation in question had a few concrete goals:
 
 With these considerations in mind, we decided to focus on a few different factors. The most important consideration was traffic - in other words, we wanted to use the MTA data to figure out how many people were going in and out of the different subway stops during the period of time we were examining (April - June 2016). We also wanted to further narrow our focus by considering the income of the neighborhood as well - it seemed like a simple way to reach people who might have more to donate.
 
-Our group was also lucky to have someone who had real-life canvassing experience. They told us about a few other factors that we may not have otherwise considered. For example, it's useful to send a team of canvassers to a location a few times - that way, someone walking by can get several opportunities to stop for a canvasser. Then, after spending about a week at a location (for a full day), the team rotates to a new station. Having this expertise was not only very interesting, but also helped up think about how many subway stations we should recommend to the organisation. At first it seemed like it would be simple to recommend a handful of stations - maybe five or ten - but after speaking to our real-life canvasser, we realized that a larger list of about fifty stations would be more practical. 
+Our group was also lucky to have someone who had real-life canvassing experience. They told us about a few other factors that we may not have otherwise considered. For example, it's useful to send a team of canvassers to a location a few times - that way, someone walking by can get several opportunities to stop for a canvasser. Then, after spending about a week at a location (for a full day), the team rotates to a new station. 
 
-![alt text] (https://github.com/maludee/maludee.github.io/blob/master/images/MTA%20Station%20Traffic%20-%204.16%20to%206.16.png "Traffic")
+Having this expertise was not only very interesting, but also helped up think about how many subway stations we should recommend to the organisation. At first it seemed like it would be simple to recommend a handful of stations - maybe five or ten - but after speaking to our real-life canvasser, we realized that a larger list of about fifty stations would be more practical. 
 
-The above histogram
+After cleaning the data and removing outliers and duplicate entries, we organised the information we had by station and combined entry and exit figures for total traffic. Then we plotted a histogram based on each station's daily traffic average. From that, we learned that:
+
+1. Most stations have a daily average of less than 25K visitors
+2. The median number of visitors was about 11.5K
+3. There were some stations with extremely high traffic figures, like Grand Central with 210K daily visitors
+
+We didn't want to send canvassers to stations with extremely high traffic, our thought being that after a certain point, higher traffic would just make it too overwhelming and crowded. We decided to use stations in the 70th to 90th percentiles of traffic volume. That left us with a list of about 100 stations.
+
+The final step was to further narrow down that list by merging it with income data. We used data from the New Yorker's "Inequality and the New York Subway" [found here. http://projects.newyorker.com/story/subway/)]
+
+See our final presentation [here:](https://github.com/maludee/proj1-mta/blob/master/Benson%20Slides.pdf)
+
+
