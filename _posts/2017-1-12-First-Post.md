@@ -11,9 +11,9 @@ The MTA posts weekly data files with information about how many people enter or 
 
 The organisation in question had a few concrete goals:
 
-1. Raise awareness/gather signatures
-2. Boost attendance for an early-summer gala
-3. Get donations
+- Raise awareness/gather signatures
+- Boost attendance for an early-summer gala
+- Get donations
 
 With these considerations in mind, we decided to focus on a few different factors. The most important consideration was traffic - in other words, we wanted to use the MTA data to figure out how many people were going in and out of the different subway stops during the period of time we were examining (April - June 2016). We also wanted to further narrow our focus by considering the income of the neighborhood as well - it seemed like a simple way to reach people who might have more to donate.
 
@@ -23,13 +23,15 @@ Having this expertise was not only very interesting, but also helped up think ab
 
 After cleaning the data and removing outliers and duplicate entries, we organised the information we had by station and combined entry and exit figures for total traffic. Then we plotted a histogram based on each station's daily traffic average. From that, we learned that:
 
-1. Most stations have a daily average of less than 25K visitors
-2. The median number of visitors was about 11.5K
-3. There were some stations with extremely high traffic figures, like Grand Central with 210K daily visitors
+- Most stations have a daily average of less than 25K visitors
+- The median number of visitors was about 11.5K
+- There were some stations with extremely high traffic figures, like Grand Central with 210K daily visitors
 
 We didn't want to send canvassers to stations with extremely high traffic, our thought being that after a certain point, higher traffic would just make it too overwhelming and crowded. We decided to use stations in the 70th to 90th percentiles of traffic volume. That left us with a list of about 100 stations.
 
-The final step was to further narrow down that list by merging it with income data. We used data from the New Yorker's "Inequality and the New York Subway" [found here. http://projects.newyorker.com/story/subway/)]
+The final step was to further narrow down that list by merging it with income data. We used data from the New Yorker's "Inequality and the New York Subway" [found here.] (http://projects.newyorker.com/story/subway/)
+
+We sorted our list of 100 stations by income, and dropped the second half of the list to leave us with our final 50 subway stations that we would recommend to the organisation.
 
 See our final presentation [here:](https://github.com/maludee/proj1-mta/blob/master/Benson%20Slides.pdf)
 
