@@ -13,6 +13,7 @@ The general goal was to scrape some data from the web, and make a prediction wit
 I chose to scrape the data from basketball-reference.com, which has a huge amount of data about basketball, going all the way back to the 1940s.
 
 Model # 1:
+
 As someone who didn't know too much about basketball, I was interested in which features would be the most predictive of NBA success. So for my first model, I scraped a fairly diverse group of statistics, including offensive stats, defensive stats, and descriptive features about players. For example, my data included the average points scored by player, their pace, number of steals, age, average salary, and several other features.
 
 I scraped the information by player by team, but then narrowed my information down to focus only on the starting five for each team. I thought that this would be a fairly simple way to then use this information to make decisions about who should spend the majority of their time on the court.
@@ -27,6 +28,8 @@ After fitting the model to my training data, I found a few features that were pa
 - % of time that the starting five started
 
 After the exploration, I was interested in seeing whether these features would still predict win/loss ratio if I took data from just the first few games of the season rather than data from the entire season.
+
+Model # 2:
 
 I went back to basketball-reference.com and scraped the data again, this time just for the first month of the season. Since NBA seasons are typically 6 months, I thought this would be a good early indication of how teams were performing. 
 
