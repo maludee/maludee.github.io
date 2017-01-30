@@ -3,7 +3,7 @@ layout: post
 title: Predicting success in the NBA
 ---
 
-How did I define success?
+What is success?
 
 In this case, I chose win/loss ratio - in other words, the total amount of wins a team achieves in a season divided by the total amount of losses. 
 
@@ -17,7 +17,25 @@ As someone who didn't know too much about basketball, I was interested in which 
 
 I scraped the information by player by team, but then narrowed my information down to focus only on the starting five for each team. I thought that this would be a fairly simple way to then use this information to make decisions about who should spend the majority of their time on the court.
 
-Another metric that I added in was "strong link" or "weak link."
+Another metric that I added in was "strong link" or "weak link." The thinking behind this was that if a team had a player on their starting five that was really strong (think, LeBron James or Steph Curry), this might have an added benefit to the team. Conversley, if a team had a player on the starting five who was significantly worse than the other five, this might have a particular negative impact. These metrics were measured by the distance that a player was away from the average of the starting five. For example, Steph Curry was almost 50% better than the average of his Golden State Warrior teammates in the starting five in 2016.
 
+After fitting the model to my training data, I found a few features that were particularly important:
+- PER (player efficiency rating - see detailed explanation [here:](http://www.basketball-reference.com/about/per.html)
+- Player age
+- Opponent field goal success rate
+- Weak link
+- % of time that the starting five started
+
+After the exploration, I was interested in seeing whether these features would still predict win/loss ratio if I took data from just the first few games of the season rather than data from the entire season.
+
+I went back to basketball-reference.com and scraped the data again, this time just for the first month of the season. Since NBA seasons are typically 6 months, I thought this would be a good early indication of how teams were performing. 
+
+I fitted the second model, and although the model was less predictive (and r-squared of about .4) it did still show that similar features were the most predictive:
+- PER
+- Player age
+- Opponent field goal success rate
+- Strong link
+
+At the end of this project, I was able to use web scraping (Scrapy and Selenium), data manipulation (Pandas) and linear regression (StatsModels, SciKit - Learn) to hone in one some features that are predictive of team success in the NBA. 
 
 See the complete presentation [here:](https://github.com/maludee/proj2-nba/blob/master/dee_malu_basketball_slides.pdf)
